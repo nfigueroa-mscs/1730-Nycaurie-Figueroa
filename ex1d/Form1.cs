@@ -17,16 +17,6 @@ namespace ex1d
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void argentinaTextChanged(object sender, EventArgs e)
         {
             txtUSDArgentina.Text = (
@@ -66,11 +56,6 @@ namespace ex1d
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-       
-        }
-
         private void btnReset_Click(object sender, EventArgs e)
         {
             txtAmountArgentina.Text = "0.00";
@@ -88,8 +73,18 @@ namespace ex1d
 
         private void usdTextChanged(object sender, EventArgs e)
         {
-            txtTotalUSD.Text = (
-                99m
+            
+            txtTotalUSD.Text = 
+                (Convert.ToDecimal(txtAmountEngland.Text) * Convert.ToDecimal(txtRateEngland.Text)
+                ).ToString("0.00");
+            txtTotalUSD.Text =
+                (Convert.ToDecimal(txtAmountSpain.Text) * Convert.ToDecimal(txtRateSpain.Text)
+                ).ToString("0.00");
+            txtTotalUSD.Text =
+                (Convert.ToDecimal(txtAmountBrazil.Text) * Convert.ToDecimal(txtRateBrazil.Text)
+                ).ToString("0.00");
+            txtTotalUSD.Text =
+                (Convert.ToDecimal(txtAmountArgentina.Text) * Convert.ToDecimal(txtRateArgentina.Text)
                 ).ToString("0.00");
         }
 

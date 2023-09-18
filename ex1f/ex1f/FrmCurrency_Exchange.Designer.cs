@@ -160,7 +160,6 @@
             this.btnKorean.Text = "Korean Won";
             this.btnKorean.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnKorean.UseVisualStyleBackColor = true;
-            this.btnKorean.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnUnitedArab
             // 
