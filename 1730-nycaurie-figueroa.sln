@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex1d", "ex1d\ex1d.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex1f", "..\ex1f\ex1f\ex1f.csproj", "{D11F7C14-9F28-41BB-A06A-535219389080}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2c", "ex2c\ex2c.csproj", "{736BCA88-8476-494A-AD16-134FC6CA441F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,14 @@ Global
 		{D11F7C14-9F28-41BB-A06A-535219389080}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D11F7C14-9F28-41BB-A06A-535219389080}.Release|x86.ActiveCfg = Release|Any CPU
 		{D11F7C14-9F28-41BB-A06A-535219389080}.Release|x86.Build.0 = Release|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Debug|x86.Build.0 = Debug|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Release|x86.ActiveCfg = Release|Any CPU
+		{736BCA88-8476-494A-AD16-134FC6CA441F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
